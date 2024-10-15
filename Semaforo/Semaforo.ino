@@ -1,11 +1,10 @@
 /* Controle de semáfoto simples */
-
-int green = 3;
+/* Substitua os pinos 2, 3 e 4 pelos pinos escolhidos no seu esquema elétrico. */
+int green = 2;
 int yellow = 3;
-int red = 3;
+int red = 4;
 
 void setup() {
-  // put your setup code here, to run once:
   pinMode(green, OUTPUT);
   pinMode(yellow, OUTPUT);
   pinMode(red, OUTPUT);
